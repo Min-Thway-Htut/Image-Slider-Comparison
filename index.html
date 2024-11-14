@@ -1,24 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css" />
-    <title>Image Slider Comparison</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-    <h1>Compare Two Images</h1>
-    <p>Click and slide the blue slider to compare two images:</p>
 
-    <div class="img-comp-container">
+  <h1>Compare Two Images</h1>
+  <p>Click and slide the blue slider to compare two images:</p>
 
-        <div class="img-comp-img">
-            <img src="images/original-image.jpg" alt="the beauty of Bagan"/>
-        </div>
-
-        <div class="img-comp-img">
-            <img src="images/black-and-white-image.jpg" alt="balck and white version of Bagan"/>
-        </div>
+  <div class="img-comp-container">
+    <div class="img-comp-img">
+      <img src="images/black-and-white-image.jpg" width="300" height="200">
     </div>
+    <div class="img-comp-img img-comp-overlay">
+      <img src="images/original-image.jpg" width="300" height="200">
+    </div>
+  </div>
+
 </body>
 </html>
